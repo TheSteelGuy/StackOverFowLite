@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Profile</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" media="screen" href="main.css"/>
+	<script src="main.js"></script>
+</head>
+
+<body onload="loadProfile()">
+	<div id="profile">
+		<!--begin all profile-->
+		<div id="header">
+			<ul>
+				<li>
+						<h2 id="logo">StackOverFLowLite</h2>
+				</li>
+
+				<li>
+					<a href="#"class="active">My Profile</a>
+				</li>
+				<li id="right">
+					<a href="../index.html">Logout</a>
+				</li>
+				<li id="right">
+			</ul>
+		</div>
+		<div class="Profile">
+			<div id="body">				
+				<div id="table">
+					<table> 
+							<h2>My Profile Information</h2>
+							<div id="profileImageDisplay">
+							<img  src="images/flower.png" id="profileImage" width="150px" height="150px">	
+							
+							</div>
+							<tr>
+								
+							</tr>
+							<tr>
+								<td>Email: someemail@domain.com | </td>
+								<td>Password: ******* | </td>
+								<td>Phone number: 07777777777 </td>
+								<td><input type="submit" value="Update Profile" id="Updateprofile"></td>
+							</tr>
+					</table>
+						
+					<h2>My Recent Questions | All Questions(5)</h2>
+					<table>
+						<tr>
+							<th id="question">Why is Javacript so powerful and how does it differ from coffee script</th>
+							<td><i>5  Minutes ago</i></td>
+						</tr>
+						<tr>
+							<th id="question">How does ES6 let Variable declaration differ from te conventional var</th>
+							<td><i>15  Minutes ago</i></td>
+						</tr>
+					</table>
+					<!--<div id="table">-->
+						<h2>My Questions With Most Answers</h2>
+						<table>
+							<tr>
+								<th id="question">How do I connect my laptop to the neighbour's Protected Wifi? </th>
+								<td>Answers <a><i> 5</i></a></td>
+							</tr>
+							<tr>
+								<th id="question">Somebody help me Know how to view items Stored in form data object? </th>
+								<td>Answers <a><i> 3</i></a></td> 
+							</tr>
+							<tr>
+								<th id="question"> Any ideas on which IDE is best for a newbie like me </th>
+								<td>Answers <a><i> 3</i></a></td>
+
+							</tr>
+
+						</table>
+					<!--</div>-->
+				</div>
+				<!--end body-->
+			</div>
+			<div id="footer">
+				<p>&copy StackOverFLowLite.All rights reserved </p>
+			</div>
+		</div>
+		<!--end profile-->
+		
+</body>
+
+</html>
