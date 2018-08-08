@@ -84,15 +84,6 @@ li a:hover {
     margin-top: 0px;
 }
 
-
-
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width:600px) {
     .column {
@@ -114,6 +105,15 @@ li a:hover {
 * {
     box-sizing: border-box; /* makes the last column appear inline*/
 }
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
 
 @media screen and (max-width:780px) {
     .column {
@@ -182,13 +182,12 @@ input[type=email], select {
     text-align: center;
 }
 #body h2{
-    background-color: #4CAF50;
+    background-color: black;
     padding: 9px 0;
     color: white;
 }
 #body h5{
     display: inline;
-    float:left;
     margin-left: 19px;
 }
 #body button{
@@ -201,8 +200,6 @@ input[type=email], select {
     cursor: pointer;
     padding: 6px;
 }
-
-
 
 
 tr:nth-child(even){background-color: #f2f2f2}
@@ -225,6 +222,18 @@ a {
     overflow: hidden;
     display: inline-block;
   }
+  .column {
+    float: left;
+    width: 49.33%;
+    padding: 2px;
+}
+.column h4{
+    color: dodgerblue;
+    text-align: left;
+}
+.column p{
+    text-align:left;
+}
 
 
 .container {
