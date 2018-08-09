@@ -344,4 +344,30 @@ input#search-bar{
     top: -62px;
     right: -25px;
   }
+#vote,#votes{
+    padding: 0px;
+    margin: 0px;
+}
+#vote p {
+    display: inline;
+    margin-left:13px;
+    padding-right:20px; 
+    cursor: pointer;
+    color: darkorange
+}
+#votes p {
+    display: inline;
+    margin-left:8px;
+    padding-right:60px; 
+    color: darkorange
+}
+#comment{
+    padding: 0px;
+    text-align: left;
+    font-style: italic;
+    font-weight: 
+}
+#commentBox{
+    display: none;
+}
   
