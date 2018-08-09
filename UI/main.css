@@ -8,10 +8,15 @@ body, html{
 #wrapper{
     min-height: 100%;
     position: relative;
-    background-image: url(images/img5.png);
+
+}
+#wrapperr{
+    min-height: 100%;
+    position: relative;
+    background-image: url(images/index.png);
     background-repeat: no-repeat;
-    background-size: 100% ;
-    /*background-size: cover; */
+    
+    background-size: cover; 
 }
 #header{
     background-color:silver;
@@ -375,4 +380,14 @@ input#search-bar{
     cursor: pointer;
     padding-left: 20px;
 }
-  
+.index{
+    width: 80%;
+    margin: auto;
+    color: white;
+    font-weight: 100
+}
+.index h3{
+    padding: 42px 12px 0px 12px;
+    font-size: 50px;
+    margin-top:60px;
+}
