@@ -370,4 +370,9 @@ input#search-bar{
 #commentBox{
     display: none;
 }
+#delete{
+    color: red;
+    cursor: pointer;
+    padding-left: 20px;
+}
   
