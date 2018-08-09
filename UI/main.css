@@ -239,10 +239,22 @@ a {
     text-align:left;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
-
+.column #answerForm{
+    text-align: left;
+}
 
 .container {
     padding: 4px 16px;
+}
+@media screen and (min-width:900px) {
+    .answer {
+        width: 100%;
+    }
+}
+.col{
+    text-align: left;
+    padding-left: 20px;
+    
 }
 
 .middle {
@@ -298,4 +310,7 @@ td{
 }
 #quizForm,#quizBody{
     display:none;
+}
+.status{
+    padding-left: 60px;
 }
