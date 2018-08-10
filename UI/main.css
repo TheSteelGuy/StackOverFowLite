@@ -312,6 +312,7 @@ td{
 #question{
     color: dodgerblue;
     text-align: left;
+    cursor: pointer;
 }
 #quizForm,#quizBody{
     display:none;
@@ -370,8 +371,8 @@ input#search-bar{
     padding: 0px;
     text-align: left;
     font-style: italic;
-    font-weight: 
 }
+
 #commentBox{
     display: none;
 }
@@ -390,4 +391,7 @@ input#search-bar{
     padding: 42px 12px 0px 12px;
     font-size: 50px;
     margin-top:60px;
+}
+#quizTitle{
+    cursor: pointer;
 }

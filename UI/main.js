@@ -12,3 +12,7 @@ const  hideQuestionForm = () =>{
 	document.getElementById("quizBody").style.display = 'none';
 	document.getElementById("quizForm").style.display = 'none';
 }
+
+const  displayAnswer = () =>{
+	window.location = 'answer.html';
+}
