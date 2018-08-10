@@ -314,3 +314,60 @@ td{
 .status{
     padding-left: 60px;
 }
+
+#search{
+    padding:0px;
+
+  }
+.search-container{
+    width: 290px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+input#search-bar{
+    margin: 0 auto;
+    width: 100%;
+    height: 45px;
+    padding: 0 20px;
+    font-size: 1rem;
+    border: 1px solid #D0CFCE;
+    outline: none;
+
+   }
+  
+.search-icon{
+    position: relative;
+    float: right;
+    width: 75px;
+    height: 75px;
+    top: -62px;
+    right: -25px;
+  }
+#vote,#votes{
+    padding: 0px;
+    margin: 0px;
+}
+#vote p {
+    display: inline;
+    margin-left:13px;
+    padding-right:20px; 
+    cursor: pointer;
+    color: darkorange
+}
+#votes p {
+    display: inline;
+    margin-left:8px;
+    padding-right:60px; 
+    color: darkorange
+}
+#comment{
+    padding: 0px;
+    text-align: left;
+    font-style: italic;
+    font-weight: 
+}
+#commentBox{
+    display: none;
+}
+  
