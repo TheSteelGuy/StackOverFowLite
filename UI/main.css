@@ -32,6 +32,7 @@ body, html{
     padding: 0px 10px 10px 10px;
     padding-bottom: 70px; /*height of footer, important*/
     text-align: center;
+
 }
 #footer{
     position: absolute;
@@ -112,7 +113,6 @@ li a:hover {
     display: table;
     clear: both;
 }
-
 
 
 @media screen and (max-width:780px) {
@@ -222,7 +222,7 @@ a {
     overflow: hidden;
     display: inline-block;
   }
-  .column {
+.column {
     float: left;
     width: 49.33%;
     padding: 2px;
@@ -267,3 +267,28 @@ a {
     color:sienna
 }
 
+#profileImageDisplay{
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+td{
+    background-color: white;
+}
+
+
+#Updateprofile{
+    width:155px;
+    margin:0px;
+    margin-left:60px;
+}
+#question{
+    color: dodgerblue;
+    text-align: left;
+}
