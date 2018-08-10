@@ -261,32 +261,6 @@ a {
     
 }
 
-.middle {
-    color:black;
-    max-width:60%;
-    margin: auto;
-    padding: 8px;
-    padding-bottom:45px;
-}
-
-.middle p{
-    font-size: 17px;
-}
-#middle {
-    background-color:white;
-    max-width:60%;
-    margin: auto;
-    padding: 8px;
-    padding-bottom:15px;
-}
-#middle p{
-    font-size: 17px;
-}
-#middle h4{
-    font-size: 17px;
-    color:sienna
-}
-
 #profileImageDisplay{
     width: 150px;
     height: 150px;
