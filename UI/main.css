@@ -393,7 +393,7 @@ input#search-bar{
     cursor: pointer;
    color: dodgerblue;
 }
-.askQuestion{
+.wrap{
     width: 75%;
     margin: auto;
     background-color: #ccc
