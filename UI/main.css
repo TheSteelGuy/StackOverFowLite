@@ -15,7 +15,6 @@ body, html{
     position: relative;
     background-image: url(images/index.png);
     background-repeat: no-repeat;
-    
     background-size: cover; 
 }
 #header{
@@ -82,11 +81,6 @@ li a:hover {
     margin: 24px 3px;
     padding: 20px 5px;
     
-}
-.intro hr{
-    max-width: 150px;
-    padding-top: 0px;
-    margin-top: 0px;
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
@@ -322,7 +316,7 @@ input#search-bar{
     right: -25px;
   }
 #vote,#votes{
-    padding: 0px;
+    padding-right: 10px;
     margin: 0px;
 }
 #vote p {
@@ -351,6 +345,11 @@ input#search-bar{
     color: red;
     cursor: pointer;
     padding-left: 20px;
+}
+#edit{
+    color:green;
+    cursor: pointer;
+    padding-left: 10px;
 }
 .index{
     width: 80%;
@@ -404,3 +403,14 @@ input#search-bar{
     box-sizing: border-box;
 }
 
+#logo{
+    padding-right: 29px;
+}
+#quizBody, #answerBody{
+    height: 80px;;
+}
+#ruler{
+    width: 50%;
+    padding: 7px;
+    background-color: white;
+}
