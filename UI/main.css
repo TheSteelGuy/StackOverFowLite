@@ -15,7 +15,6 @@ body, html{
     position: relative;
     background-image: url(images/index.png);
     background-repeat: no-repeat;
-    
     background-size: cover; 
 }
 #header{
@@ -82,11 +81,6 @@ li a:hover {
     margin: 24px 3px;
     padding: 20px 5px;
     
-}
-.intro hr{
-    max-width: 150px;
-    padding-top: 0px;
-    margin-top: 0px;
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
@@ -261,32 +255,6 @@ a {
     
 }
 
-.middle {
-    color:black;
-    max-width:60%;
-    margin: auto;
-    padding: 8px;
-    padding-bottom:45px;
-}
-
-.middle p{
-    font-size: 17px;
-}
-#middle {
-    background-color:white;
-    max-width:60%;
-    margin: auto;
-    padding: 8px;
-    padding-bottom:15px;
-}
-#middle p{
-    font-size: 17px;
-}
-#middle h4{
-    font-size: 17px;
-    color:sienna
-}
-
 #profileImageDisplay{
     width: 150px;
     height: 150px;
@@ -348,7 +316,7 @@ input#search-bar{
     right: -25px;
   }
 #vote,#votes{
-    padding: 0px;
+    padding-right: 10px;
     margin: 0px;
 }
 #vote p {
@@ -378,6 +346,11 @@ input#search-bar{
     cursor: pointer;
     padding-left: 20px;
 }
+#edit{
+    color:green;
+    cursor: pointer;
+    padding-left: 10px;
+}
 .index{
     width: 80%;
     margin: auto;
@@ -385,9 +358,9 @@ input#search-bar{
     font-weight: 100
 }
 .index h3{
-    padding: 42px 12px 0px 12px;
+    padding: 22px 12px 0px 12px;
     font-size: 50px;
-    margin-top:60px;
+    margin-top:90px;
 }
 #quizTitle{
     cursor: pointer;
@@ -430,3 +403,14 @@ input#search-bar{
     box-sizing: border-box;
 }
 
+#logo{
+    padding-right: 29px;
+}
+#quizBody, #answerBody{
+    height: 80px;;
+}
+#ruler{
+    width: 50%;
+    padding: 4px;
+    background-color: white;
+}
